@@ -1,8 +1,10 @@
 import { Router } from 'express'
 import UserController from '../controllers/UserController.js'
+import { validateID } from '../middlewares/middleware.js'
 
 const router = Router()
 
 router.get('/', UserController.index)
+router.get('/:id', validateID, UserController.getById)
 
 export default router
