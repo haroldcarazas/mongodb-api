@@ -6,5 +6,7 @@ const router = Router()
 
 router.get('/', UserController.index)
 router.get('/:id', validateID, UserController.getById)
+router.post('/', UserController.store)
+router.delete('/:id', validateID, UserController.delete)
 
 export default router
