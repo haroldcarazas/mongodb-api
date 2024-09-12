@@ -1,8 +1,11 @@
 import express from 'express'
 import { DB_URL, PORT } from './config/config.js'
 import { connect } from 'mongoose'
+import userRoutes from './routes/user.routes.js'
 
 const app = express()
+
+app.use('/api/users', userRoutes)
 
 connect(DB_URL)
   .then(() => {
