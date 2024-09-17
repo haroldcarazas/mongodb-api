@@ -45,7 +45,11 @@ class UserController {
         password: hash
       })
 
-      res.status(201).json({ message: 'Usuario creado', data: user })
+      const userObj = user.toObject()
+      delete userObj.password
+      delete userObj.__v
+
+      res.status(201).json({ message: 'Usuario creado', data: userObj })
     } catch (error) {
       res.status(500).json({ message: error.message })
     }
