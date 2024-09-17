@@ -1,4 +1,5 @@
-import { Schema, model } from 'mongoose'
+import { Schema, model, Types } from 'mongoose'
+import Course from './Course.js'
 
 const userSchema = new Schema({
   fName: {
@@ -25,6 +26,17 @@ const userSchema = new Schema({
     type: String,
     required: true
   },
+  role: {
+    type: String,
+    required: true
+  },
+  courses: [
+    {
+      type: Types.ObjectId,
+      required: true,
+      ref: Course
+    }
+  ],
   image: {
     type: String,
     required: false

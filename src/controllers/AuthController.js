@@ -23,8 +23,11 @@ class AuthController {
 
   static async me (req, res) {
     try {
-      delete req.user.password
-      res.json(req.user)
+      const userCourses = await req.user.populate('courses')
+      const user = userCourses.toObject()
+
+      delete user.password
+      res.json(user)
     } catch (error) {
       res.status(500).json({ message: error.message })
     }
