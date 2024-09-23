@@ -1,0 +1,188 @@
+[{
+  "_id": {
+    "$oid": "66f1a383326b59b61cc370bf"
+  },
+  "exam": {
+    "$oid": "66e9b6f4a90f4ead74bf9581"
+  },
+  "user": {
+    "$oid": "66e9b461caf76179735736ef"
+  },
+  "answers": [
+    {
+      "question": {
+        "$oid": "66e9b50ba90f4ead74bf9576"
+      },
+      "answer": "played",
+      "_id": {
+        "$oid": "66f1a383326b59b61cc370c0"
+      }
+    },
+    {
+      "question": {
+        "$oid": "66e9b59ba90f4ead74bf9577"
+      },
+      "answer": "sang",
+      "_id": {
+        "$oid": "66f1a383326b59b61cc370c1"
+      }
+    },
+    {
+      "question": {
+        "$oid": "66e9b61fa90f4ead74bf9578"
+      },
+      "video": {
+        "$oid": "66f1a383326b59b61cc370ba"
+      },
+      "_id": {
+        "$oid": "66f1a383326b59b61cc370c2"
+      }
+    }
+  ],
+  "score": 100,
+  "date": {
+    "$date": "2024-09-23T17:19:30.395Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66f1a454652508ede5dde9f0"
+  },
+  "exam": {
+    "$oid": "66e9b6f4a90f4ead74bf9581"
+  },
+  "user": {
+    "$oid": "66e9b461caf76179735736ef"
+  },
+  "answers": [
+    {
+      "question": {
+        "$oid": "66e9b50ba90f4ead74bf9576"
+      },
+      "answer": "played",
+      "_id": {
+        "$oid": "66f1a454652508ede5dde9f1"
+      }
+    },
+    {
+      "question": {
+        "$oid": "66e9b59ba90f4ead74bf9577"
+      },
+      "answer": "sang",
+      "_id": {
+        "$oid": "66f1a454652508ede5dde9f2"
+      }
+    },
+    {
+      "question": {
+        "$oid": "66e9b61fa90f4ead74bf9578"
+      },
+      "video": {
+        "$oid": "66f1a454652508ede5dde9eb"
+      },
+      "_id": {
+        "$oid": "66f1a454652508ede5dde9f3"
+      }
+    }
+  ],
+  "score": 50,
+  "date": {
+    "$date": "2024-09-23T17:24:27.556Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66f1a465652508ede5ddea00"
+  },
+  "exam": {
+    "$oid": "66e9b6f4a90f4ead74bf9581"
+  },
+  "user": {
+    "$oid": "66e9b461caf76179735736ef"
+  },
+  "answers": [
+    {
+      "question": {
+        "$oid": "66e9b50ba90f4ead74bf9576"
+      },
+      "answer": "played",
+      "_id": {
+        "$oid": "66f1a465652508ede5ddea01"
+      }
+    },
+    {
+      "question": {
+        "$oid": "66e9b59ba90f4ead74bf9577"
+      },
+      "answer": "songed",
+      "_id": {
+        "$oid": "66f1a465652508ede5ddea02"
+      }
+    },
+    {
+      "question": {
+        "$oid": "66e9b61fa90f4ead74bf9578"
+      },
+      "video": {
+        "$oid": "66f1a465652508ede5dde9fb"
+      },
+      "_id": {
+        "$oid": "66f1a465652508ede5ddea03"
+      }
+    }
+  ],
+  "score": 20,
+  "date": {
+    "$date": "2024-09-23T17:24:27.556Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66f1a4ff652508ede5ddea31"
+  },
+  "exam": {
+    "$oid": "66e9b6f4a90f4ead74bf9581"
+  },
+  "user": {
+    "$oid": "66e9b461caf76179735736ef"
+  },
+  "answers": [
+    {
+      "question": {
+        "$oid": "66e9b50ba90f4ead74bf9576"
+      },
+      "answer": "played",
+      "_id": {
+        "$oid": "66f1a4ff652508ede5ddea32"
+      }
+    },
+    {
+      "question": {
+        "$oid": "66e9b59ba90f4ead74bf9577"
+      },
+      "answer": "sang",
+      "_id": {
+        "$oid": "66f1a4ff652508ede5ddea33"
+      }
+    },
+    {
+      "question": {
+        "$oid": "66e9b61fa90f4ead74bf9578"
+      },
+      "video": {
+        "$oid": "66f1a4ff652508ede5ddea2c"
+      },
+      "_id": {
+        "$oid": "66f1a4ff652508ede5ddea34"
+      }
+    }
+  ],
+  "score": 50,
+  "date": {
+    "$date": "2024-09-23T17:24:27.556Z"
+  },
+  "__v": 0
+}]

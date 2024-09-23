@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "66e9b461caf76179735736ef"
+  },
+  "fName": "Esteban",
+  "mName": "Santiago",
+  "lName": "Rojas Perez",
+  "username": "esteban123",
+  "email": "esteban123@gmail.com",
+  "password": "$2b$10$PxVtS3S7EECOJrDLnb0DjOVYs76NAd02ZBg0G/cP7ag2xBpTlBkTu",
+  "__v": 0,
+  "courses": [
+    {
+      "$oid": "66e9b6d4a90f4ead74bf957e"
+    },
+    {
+      "$oid": "66e9be71a90f4ead74bf9594"
+    }
+  ],
+  "role": "student"
+}]

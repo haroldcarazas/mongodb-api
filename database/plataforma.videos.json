@@ -1,0 +1,76 @@
+[{
+  "_id": {
+    "$oid": "66f1a383326b59b61cc370ba"
+  },
+  "video": "1727112067024-examen.mp4",
+  "user": {
+    "$oid": "66e9b461caf76179735736ef"
+  },
+  "exam": {
+    "$oid": "66e9b6f4a90f4ead74bf9581"
+  },
+  "createdAt": {
+    "$date": "2024-09-23T17:21:07.030Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-23T17:21:07.030Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66f1a454652508ede5dde9eb"
+  },
+  "video": "1727112276154-examen.mp4",
+  "user": {
+    "$oid": "66e9b461caf76179735736ef"
+  },
+  "exam": {
+    "$oid": "66e9b6f4a90f4ead74bf9581"
+  },
+  "createdAt": {
+    "$date": "2024-09-23T17:24:36.166Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-23T17:24:36.166Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66f1a465652508ede5dde9fb"
+  },
+  "video": "1727112293273-examen.mp4",
+  "user": {
+    "$oid": "66e9b461caf76179735736ef"
+  },
+  "exam": {
+    "$oid": "66e9b6f4a90f4ead74bf9581"
+  },
+  "createdAt": {
+    "$date": "2024-09-23T17:24:53.279Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-23T17:24:53.279Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66f1a4ff652508ede5ddea2c"
+  },
+  "video": "1727112447262-examen.mp4",
+  "user": {
+    "$oid": "66e9b461caf76179735736ef"
+  },
+  "exam": {
+    "$oid": "66e9b6f4a90f4ead74bf9581"
+  },
+  "createdAt": {
+    "$date": "2024-09-23T17:27:27.266Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-23T17:27:27.266Z"
+  },
+  "__v": 0
+}]

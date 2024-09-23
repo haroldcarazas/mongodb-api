@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "66e9b6f4a90f4ead74bf9581"
+  },
+  "course": {
+    "$oid": "66e9b6d4a90f4ead74bf957e"
+  },
+  "questions": [
+    {
+      "$oid": "66e9b50ba90f4ead74bf9576"
+    },
+    {
+      "$oid": "66e9b59ba90f4ead74bf9577"
+    },
+    {
+      "$oid": "66e9b61fa90f4ead74bf9578"
+    }
+  ],
+  "maxScore": 100,
+  "duration": 3600
+}]

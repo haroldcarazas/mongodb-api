@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "66e9b50ba90f4ead74bf9576"
+  },
+  "type": "simple",
+  "question": "What is the past of \"play\"?",
+  "answer": "played",
+  "score": 20
+},
+{
+  "_id": {
+    "$oid": "66e9b59ba90f4ead74bf9577"
+  },
+  "type": "multiple",
+  "question": "What is the past of \"sing\"?",
+  "options": [
+    "song",
+    "sang",
+    "songed"
+  ],
+  "answer": "sang",
+  "score": 30
+},
+{
+  "_id": {
+    "$oid": "66e9b61fa90f4ead74bf9578"
+  },
+  "type": "video",
+  "question": "Film a video talking about your family",
+  "score": 50
+}]
