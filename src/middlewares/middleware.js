@@ -30,3 +30,8 @@ export const validateCORS = (req, res, next) => {
     res.status(401).json({ messsage: error.message })
   }
 }
+
+export const handleErrors = (err, req, res, next) => {
+  if (err) return res.status(500).json({ message: err.message })
+  next()
+}

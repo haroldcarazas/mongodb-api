@@ -2,6 +2,7 @@ import { Schema, model, Types } from 'mongoose'
 import Exam from './Exam.js'
 import User from './User.js'
 import Question from './Question.js'
+import Video from './Video.js'
 
 const answerSchema = new Schema({
   question: {
@@ -11,7 +12,12 @@ const answerSchema = new Schema({
   },
   answer: {
     type: String,
-    required: true
+    required: false
+  },
+  video: {
+    type: Types.ObjectId,
+    required: false,
+    ref: Video
   }
 })
 
